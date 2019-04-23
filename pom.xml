@@ -35,8 +35,8 @@
         <cloudHubDeployment>
             <uri>https://anypoint.mulesoft.com</uri>
             <muleVersion>4.1.5</muleVersion>
-            <username>naresh_m</username>
-            <password>Whishworks12!@</password>
+            <username>${anypoint.username}</username>
+            <password>${anypoint.password}</password>
             <applicationName>devopsdemo-ohg</applicationName>
             <environment>PROD</environment>
             <businessGroup>LnD</businessGroup>
