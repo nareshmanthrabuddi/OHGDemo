@@ -8,9 +8,16 @@
   <packaging>mule-application</packaging>
   <name>devopsdemo</name>
   <properties>
-    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <app.runtime>4.1.4</app.runtime>
+    <muleVersion>4.1.4</muleVersion>
+    <environment>PROD</environment>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <munit.version>2.1.4</munit.version>
+    <anypoint.username>naresh_m</anypoint.username>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <applicationName>devopsdemo-ohg</applicationName>
+    <businessGroup>LnD</businessGroup>
+    <anypoint.password>Whishworks12!@</anypoint.password>
     <mule.maven.plugin.version>3.1.6</mule.maven.plugin.version>
   </properties>
   <dependencies>
@@ -27,6 +34,20 @@
       <version>1.1.2</version>
       <classifier>mule-plugin</classifier>
       <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mulesoft.munit</groupId>
+      <artifactId>munit-runner</artifactId>
+      <version>2.1.4</version>
+      <classifier>mule-plugin</classifier>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mulesoft.munit</groupId>
+      <artifactId>munit-tools</artifactId>
+      <version>2.1.4</version>
+      <classifier>mule-plugin</classifier>
+      <scope>test</scope>
     </dependency>
   </dependencies>
   <repositories>
@@ -153,7 +174,7 @@
             <configuration>
               <cloudHubDeployment>
                 <uri>https://anypoint.mulesoft.com</uri>
-                <muleVersion>4.1.5</muleVersion>
+                <muleVersion>4.1.4</muleVersion>
                 <username>naresh_m</username>
                 <password>Whishworks12!@</password>
                 <applicationName>devopsdemo-ohg</applicationName>
@@ -173,7 +194,7 @@
             <configuration>
               <cloudHubDeployment>
                 <uri>https://anypoint.mulesoft.com</uri>
-                <muleVersion>4.1.5</muleVersion>
+                <muleVersion>4.1.4</muleVersion>
                 <username>naresh_m</username>
                 <password>Whishworks12!@</password>
                 <applicationName>devopsdemo-ohg</applicationName>
@@ -193,7 +214,7 @@
             <configuration>
               <cloudHubDeployment>
                 <uri>https://anypoint.mulesoft.com</uri>
-                <muleVersion>4.1.5</muleVersion>
+                <muleVersion>4.1.4</muleVersion>
                 <username>naresh_m</username>
                 <password>Whishworks12!@</password>
                 <applicationName>devopsdemo-ohg</applicationName>
@@ -213,7 +234,7 @@
             <configuration>
               <cloudHubDeployment>
                 <uri>https://anypoint.mulesoft.com</uri>
-                <muleVersion>4.1.5</muleVersion>
+                <muleVersion>4.1.4</muleVersion>
                 <username>naresh_m</username>
                 <password>Whishworks12!@</password>
                 <applicationName>devopsdemo-ohg</applicationName>
@@ -233,7 +254,7 @@
             <configuration>
               <cloudHubDeployment>
                 <uri>https://anypoint.mulesoft.com</uri>
-                <muleVersion>4.1.5</muleVersion>
+                <muleVersion>4.1.4</muleVersion>
                 <username>naresh_m</username>
                 <password>Whishworks12!@</password>
                 <applicationName>devopsdemo-ohg</applicationName>
@@ -253,7 +274,7 @@
             <configuration>
               <cloudHubDeployment>
                 <uri>https://anypoint.mulesoft.com</uri>
-                <muleVersion>4.1.5</muleVersion>
+                <muleVersion>4.1.4</muleVersion>
                 <username>naresh_m</username>
                 <password>Whishworks12!@</password>
                 <applicationName>devopsdemo-ohg</applicationName>
@@ -273,7 +294,7 @@
             <configuration>
               <cloudHubDeployment>
                 <uri>https://anypoint.mulesoft.com</uri>
-                <muleVersion>4.1.5</muleVersion>
+                <muleVersion>4.1.4</muleVersion>
                 <username>naresh_m</username>
                 <password>Whishworks12!@</password>
                 <applicationName>devopsdemo-ohg</applicationName>
@@ -293,7 +314,7 @@
             <configuration>
               <cloudHubDeployment>
                 <uri>https://anypoint.mulesoft.com</uri>
-                <muleVersion>4.1.5</muleVersion>
+                <muleVersion>4.1.4</muleVersion>
                 <username>naresh_m</username>
                 <password>Whishworks12!@</password>
                 <applicationName>devopsdemo-ohg</applicationName>
@@ -313,7 +334,7 @@
             <configuration>
               <cloudHubDeployment>
                 <uri>https://anypoint.mulesoft.com</uri>
-                <muleVersion>4.1.5</muleVersion>
+                <muleVersion>4.1.4</muleVersion>
                 <username>naresh_m</username>
                 <password>Whishworks12!@</password>
                 <applicationName>devopsdemo-ohg</applicationName>
@@ -333,7 +354,7 @@
             <configuration>
               <cloudHubDeployment>
                 <uri>https://anypoint.mulesoft.com</uri>
-                <muleVersion>4.1.5</muleVersion>
+                <muleVersion>4.1.4</muleVersion>
                 <username>naresh_m</username>
                 <password>Whishworks12!@</password>
                 <applicationName>devopsdemo-ohg</applicationName>
@@ -353,7 +374,7 @@
             <configuration>
               <cloudHubDeployment>
                 <uri>https://anypoint.mulesoft.com</uri>
-                <muleVersion>4.1.5</muleVersion>
+                <muleVersion>4.1.4</muleVersion>
                 <username>naresh_m</username>
                 <password>Whishworks12!@</password>
                 <applicationName>devopsdemo-ohg</applicationName>
@@ -373,7 +394,7 @@
             <configuration>
               <cloudHubDeployment>
                 <uri>https://anypoint.mulesoft.com</uri>
-                <muleVersion>4.1.5</muleVersion>
+                <muleVersion>4.1.4</muleVersion>
                 <username>naresh_m</username>
                 <password>Whishworks12!@</password>
                 <applicationName>devopsdemo-ohg</applicationName>
@@ -393,7 +414,7 @@
             <configuration>
               <cloudHubDeployment>
                 <uri>https://anypoint.mulesoft.com</uri>
-                <muleVersion>4.1.5</muleVersion>
+                <muleVersion>4.1.4</muleVersion>
                 <username>naresh_m</username>
                 <password>Whishworks12!@</password>
                 <applicationName>devopsdemo-ohg</applicationName>
@@ -408,7 +429,7 @@
         <configuration>
           <cloudHubDeployment>
             <uri>https://anypoint.mulesoft.com</uri>
-            <muleVersion>4.1.5</muleVersion>
+            <muleVersion>4.1.4</muleVersion>
             <username>naresh_m</username>
             <password>Whishworks12!@</password>
             <applicationName>devopsdemo-ohg</applicationName>
@@ -418,6 +439,37 @@
               <key>value</key>
             </properties>
           </cloudHubDeployment></configuration>
+      </plugin>
+      <plugin>
+        <groupId>com.mulesoft.munit.tools</groupId>
+        <artifactId>munit-maven-plugin</artifactId>
+        <version>2.1.4</version>
+        <executions>
+          <execution>
+            <id>test</id>
+            <phase>test</phase>
+            <goals>
+              <goal>test</goal>
+              <goal>coverage-report</goal>
+            </goals>
+            <configuration>
+              <coverage>
+                <runCoverage>true</runCoverage>
+                <formats>
+                  <format>html</format>
+                </formats>
+              </coverage>
+            </configuration>
+          </execution>
+        </executions>
+        <configuration>
+          <coverage>
+            <runCoverage>true</runCoverage>
+            <formats>
+              <format>html</format>
+            </formats>
+          </coverage>
+        </configuration>
       </plugin>
       <plugin>
         <artifactId>maven-clean-plugin</artifactId>
