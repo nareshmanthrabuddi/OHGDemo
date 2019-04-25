@@ -40,12 +40,21 @@
         <configuration>
         <cloudHubDeployment>
             <uri>https://anypoint.mulesoft.com</uri>
+<<<<<<< HEAD
             <muleVersion>${muleVersion}</muleVersion>
             <username>${anypoint.username}</username>
             <password>${anypoint.password}</password>
             <applicationName>${applicationName}</applicationName>
             <environment>${environment}</environment>
             <businessGroup>${businessGroup}</businessGroup>
+=======
+            <muleVersion>4.1.5</muleVersion>
+            <username>${anypoint.username}</username>
+            <password>${anypoint.password}</password>
+            <applicationName>devopsdemo-ohg</applicationName>
+            <environment>PROD</environment>
+            <businessGroup>LnD</businessGroup>
+>>>>>>> 6561a064706e12b0cfa9ce9758896425b0f78646
             <properties>
                 <key>value</key>
             </properties>
