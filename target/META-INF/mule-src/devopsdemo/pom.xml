@@ -46,6 +46,12 @@
             <applicationName>${applicationName}</applicationName>
             <environment>${environment}</environment>
             <businessGroup>${businessGroup}</businessGroup>
+            <muleVersion>4.1.5</muleVersion>
+            <username>${anypoint.username}</username>
+            <password>${anypoint.password}</password>
+            <applicationName>devopsdemo-ohg</applicationName>
+            <environment>PROD</environment>
+            <businessGroup>LnD</businessGroup>
             <properties>
                 <key>value</key>
             </properties>
