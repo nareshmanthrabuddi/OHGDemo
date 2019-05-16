@@ -42,7 +42,7 @@
             <environment>PROD</environment>
             <businessGroup>LnD</businessGroup>
             <muleVersion>4.1.5</muleVersion>
-            <applicationName>devopsdemo</applicationName>
+            <applicationName>devopsdemo-tlc</applicationName>
             <environment>PROD</environment>
             <businessGroup>LnD</businessGroup>
             <properties>
