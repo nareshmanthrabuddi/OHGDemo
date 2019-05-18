@@ -124,6 +124,12 @@
 		    <artifactId>jacoco-maven-plugin</artifactId>
 		    <version>0.8.3</version>
 		</dependency>  
+		<!-- https://mvnrepository.com/artifact/org.mule.distributions/mule-runtime-impl-bom -->
+		<dependency>
+		    <groupId>org.mule.distributions</groupId>
+		    <artifactId>mule-runtime-impl-bom</artifactId>
+		    <version>4.1.1</version>
+		</dependency>
     </dependencies>
 	<repositories>
           <repository>
